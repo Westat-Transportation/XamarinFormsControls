@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<package >
+  <metadata minClientVersion="2.8.1">
+    <id>dotMorten.Xamarin.Forms.AutoSuggestBox</id>
+    <version>0.2</version>
+    <title></title>
+    <authors>mnielsen</authors>
+    <owners></owners>
+    <licenseUrl>https://github.com/dotMorten/XamarinFormsControls/LICENSE.MD</licenseUrl>
+    <projectUrl>https://github.com/dotMorten/XamarinFormsControls/tree/master/AutoSuggestBox</projectUrl>
+    <iconUrl>https://www.nuget.org/Content/gallery/img/default-package-icon.svg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>autosuggest</description>
+    <summary></summary>
+    <copyright></copyright>
+    <tags>iOS,Android,UWP,autosuggest</tags>
+     <dependencies>
+      <group targetFramework="netstandard1.0">
+        <dependency id="NETStandard.Library" version="2.0" />
+      </group>
+      <group targetFramework="MonoAndroid60">
+        <dependency id="Xamarin.Forms" version="3.4.0.1008975" />
+      </group>
+      <group targetFramework="Xamarin.iOS10">
+      </group>
+      <group targetFramework="Xamarin.Mac20">
+      </group>
+      <group targetFramework="portable-net45+win+wpa81+wp80">
+      </group>
+      <group targetFramework="uap">
+      </group>
+      <group targetFramework="xamarintvos">
+      </group>
+      <group targetFramework="xamarinwatchos">
+      </group>
+    </dependencies>
+    <releaseNotes>Built by Westat</releaseNotes>
+  </metadata>
+  <files>
+        <file src="dotMorten.Xamarin.Forms.AutoSuggestBox\bin\Release\netstandard2.0\dotMorten.*" target="lib\netstandard2.0" />
+        <file src="dotMorten.Xamarin.Forms.AutoSuggestBox\bin\Release\monoandroid60\60\dotMorten.*" target="lib\MonoAndroid60" />
+        <file src="dotMorten.Xamarin.Forms.AutoSuggestBox\bin\Release\xamarinios10\dotMorten.*" target="lib\Xamarin.iOS10" />
+		<file src="dotMorten.Xamarin.Forms.AutoSuggestBox\bin\Release\uap10.0.16299\dotMorten.*" target="lib\uap10.0" />
+  </files>
+</package>
